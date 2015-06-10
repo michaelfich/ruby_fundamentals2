@@ -28,3 +28,10 @@ end
 
 # display the second item within the grocery list
 puts "The second item in the grocery list is '#{grocery_list[1]}'."
+
+# sorts the values in the array alphabetically and updates the array
+grocery_list.sort!
+
+# display the grocery list again after it has been sorted
+display_grocery_list(grocery_list)
+
