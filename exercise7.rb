@@ -39,3 +39,11 @@ students.delete(:cohort2)
 # display the updated cohorts list
 puts "Removed cohort2 from the list.  Updated list is as follows..."
 display_cohorts(students)
+
+# calculate the total number of students through all cohorts and output
+student_counter = 0
+students.each do |cohort, student|
+	student_counter += student
+end
+
+puts student_counter
