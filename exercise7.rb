@@ -14,4 +14,8 @@ students = {
   :cohort3 => 22
 }
 
+# display the cohorts and the students for each
 display_cohorts(students)
+
+# adds 'cohort4' to the hash, with 43 students
+students[:cohort4] = 43
