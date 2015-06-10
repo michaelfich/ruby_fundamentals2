@@ -1,5 +1,8 @@
 # defines a method for converting temperature from fahrenheit to celsius
 def fahrenheit_to_celsius(fahrenheit)
+	# convert the parameter 'fahrenheit' to an integer
+	fahrenheit = fahrenheit.to_i
+
 	# formula to convert fahrenheit to celsius
 	(fahrenheit - 32) * (5.to_f / 9.to_f)
 end
