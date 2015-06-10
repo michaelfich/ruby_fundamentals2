@@ -18,3 +18,10 @@ display_grocery_list(grocery_list)
 
 # outputs the number of items currently in the list
 puts "The grocery list currently has #{grocery_list.count} items on it."
+
+# check to see if the list current includes bananas
+if grocery_list.include?("bananas")
+	puts "You need to pick up bananas."
+else
+	puts "You don't need to pick up bananas today."
+end
