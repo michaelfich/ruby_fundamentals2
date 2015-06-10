@@ -35,3 +35,6 @@ grocery_list.sort!
 # display the grocery list again after it has been sorted
 display_grocery_list(grocery_list)
 
+# remove 'salmon' from the grocery list and output the updated list
+puts "Removed '#{grocery_list.delete('salmon')}' from the grocery list."
+display_grocery_list(grocery_list)
