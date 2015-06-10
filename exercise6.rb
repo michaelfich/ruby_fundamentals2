@@ -16,4 +16,5 @@ display_grocery_list(grocery_list)
 grocery_list << "rice"
 display_grocery_list(grocery_list)
 
-
+# outputs the number of items currently in the list
+puts "The grocery list currently has #{grocery_list.count} items on it."
