@@ -32,3 +32,10 @@ end
 
 # display the updated list of cohorts and students
 display_cohorts(students)
+
+# delete 'cohort2' from the 'students' hash
+students.delete(:cohort2)
+
+# display the updated cohorts list
+puts "Removed cohort2 from the list.  Updated list is as follows..."
+display_cohorts(students)
