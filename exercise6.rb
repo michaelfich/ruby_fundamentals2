@@ -11,3 +11,9 @@ grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
 
 # display the grocery list
 display_grocery_list(grocery_list)
+
+# add "rice" to the grocery list and display the updated list
+grocery_list << "rice"
+display_grocery_list(grocery_list)
+
+
